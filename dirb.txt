@@ -1,0 +1,44 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb.txt
+WORDLIST_FILES: /usr/share/wordlists/dirb/common.txt
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://$IP/ ----
+==> DIRECTORY: http://$IP/0/
+==> DIRECTORY: http://$IP/admin/
++ http://$IP/atom (CODE:301|SIZE:0)
+==> DIRECTORY: http://$IP/audio/
+==> DIRECTORY: http://$IP/blog/
+==> DIRECTORY: http://$IP/css/
++ http://$IP/dashboard (CODE:302|SIZE:0)
++ http://$IP/favicon.ico (CODE:200|SIZE:0)
+==> DIRECTORY: http://$IP/feed/
+==> DIRECTORY: http://$IP/image/
+==> DIRECTORY: http://$IP/Image/
+==> DIRECTORY: http://$IP/images/
++ http://$IP/index.html (CODE:200|SIZE:1104)
++ http://$IP/index.php (CODE:301|SIZE:0)
++ http://$IP/intro (CODE:200|SIZE:516314)
+==> DIRECTORY: http://$IP/js/
++ http://$IP/license (CODE:200|SIZE:309)
++ http://$IP/login (CODE:302|SIZE:0)
++ http://$IP/page1 (CODE:301|SIZE:0)
++ http://$IP/phpmyadmin (CODE:403|SIZE:94)
++ http://$IP/rdf (CODE:301|SIZE:0)
++ http://$IP/readme (CODE:200|SIZE:64)
++ http://$IP/robots (CODE:200|SIZE:41)
++ http://$IP/robots.txt (CODE:200|SIZE:41)
++ http://$IP/rss (CODE:301|SIZE:0)
++ http://$IP/rss2 (CODE:301|SIZE:0)
++ http://$IP/sitemap (CODE:200|SIZE:0)
++ http://$IP/sitemap.xml (CODE:200|SIZE:0)
+==> DIRECTORY: http://$IP/video/
+
